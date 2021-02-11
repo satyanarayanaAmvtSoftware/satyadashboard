@@ -1,0 +1,74 @@
+<!-- Start page sidebar wrapper -->
+<div class="page-sidebar-wrapper">
+    <div class="page-sidebar" style="position: fixed">
+        <ul class="page-sidebar-menu  page-header-fixed" style="background-color:white ;">
+            <br>
+            <li ng-show="!checkusr" class="nav-item" ui-sref-active="active">
+                <a class="nav-link" ui-sref="dashboard" style="margin-top: -38px;">
+                    <i class="fa fa-th-large"></i>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li>
+             <li ng-show="!checkusr" class="nav-item" ui-sref-active="active">
+                <a class="nav-link" ui-sref="vendor" >
+                    <i class="fa fa-user-o" style="color:black;"></i>
+                    <span class="title" style="font-family: raleway;color: black;font-size: 22px;">Vendor Details</span>
+                 </a>
+               
+            </li>
+            <br>
+            <li ng-show="!checkusr" class="nav-item" ui-sref-active="active">
+                <a class="nav-link" ui-sref="madicine" >
+                    <i class="fa fa-user-o" style="color:black;"></i>
+                    <span class="title" style="font-family: raleway;color: black;font-size: 22px;">ADD TO Madicine Catagory </span>
+                 </a>
+            </li>
+            <li ng-show="!checkusr" class="nav-item" ui-sref-active="active">
+                <a class="nav-link" ui-sref="customer" >
+                    <i class="fa fa-user-o" style="color:black;"></i>
+                    <span class="title" style="font-family: raleway;color: black;font-size: 22px;">CustomerDetails</span>
+                 </a>
+            </li>
+            <li ng-show="!checkusr" class="nav-item" ui-sref-active="active">
+                <a class="nav-link" ui-sref="purchesDetails" >
+                    <i class="fa fa-user-o" style="color:black;"></i>
+                    <span class="title" style="font-family: raleway;color: black;font-size: 22px;">Purches Details</span>
+                 </a>
+            </li>
+            <li ng-show="!checkusr" class="nav-item" ui-sref-active="active">
+                <a class="nav-link" ui-sref="salesDetails" >
+                    <i class="fa fa-user-o" style="color:black;"></i>
+                    <span class="title" style="font-family: raleway;color: black;font-size: 22px;">Sales Report</span>
+                 </a>
+            </li>
+            <li ng-show="!checkusr" class="nav-item" ui-sref-active="active">
+                <a class="nav-link" ui-sref="phrydates" >
+                    <i class="fa fa-user-o" style="color:black;"></i>
+                    <span class="title" style="font-family: raleway;color: black;font-size: 22px;"> Monthly SalesReport</span>
+                 </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+<style>
+.page-sidebar .page-sidebar-menu > li.active > a  {
+
+background: #d62a78 !important;
+}
+
+
+.page-sidebar .page-sidebar-menu > li:hover > a  {
+    background:white;  
+
+}
+
+.page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover {
+   z-index: 1;
+    
+}
+
+
+
+
+</style>
